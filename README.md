@@ -1,0 +1,2 @@
+# cache simulator
+Created a "cache simulator" to count the number of reads and writes in a write through cache using the least recently used replacement policy and prefetching. Counts the number of hits, misses, reads, writes in a cache with different types of cache setups such as direct, set associative, and fully associative. Data structure used was a 2d array of structs with a count, a tag and valid bit parameters. 
